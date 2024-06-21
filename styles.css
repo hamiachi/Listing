@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+}
+
+body {
+    max-width: 1440px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 134px;
+    border-bottom: 1px solid lightgray;
+}
+
+header img {
+    width: 395.83px;
+    height: 37.53px;
+    margin-left: 4.415%;
+}
+
+.home {
+    display: none;
+}
+
+.firstList {
+    list-style-type: none;
+    display: flex;
+    gap: 34px;
+    padding: 0;
+    margin-left: 33.09%;
+}
+
+.firstList li {
+    font-family: 'New York Small';
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2.4px;
+    line-height: 34px;
+    text-align: center;
+    color: black;
+    border-bottom: 2.5px solid transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.firstList li:hover {
+    border-bottom: 2.5px solid black;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainPic {
+    width: 59.3%;
+    height: 14.1%;
+    margin-top: 74px;
+}
+
+main h1 {
+    font-family: 'New York Extra Large';
+    width: 59.58%;
+    height: 4.28%;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 44px;
+}
+
+main p {
+    font-family: 'SF Mono';
+    font-style: normal;
+    width: 41.11%;
+    height: 1.79%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.divider {
+    margin-top: 34px;
+    width: 44.44%;
+    border: 1.5px solid #000000;
+}
+
+main h2 {
+    width: 16.525%;
+    height: 1.4%;
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52.51px;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 2.7%;
+}
+
+.pair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44.16%;
+}
+
+.single {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 38px;
+}
+
+.single img {
+    width: 304px;
+    height: 176px;
+}
+
+.single p {
+    width: 262px;
+    height: 104px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.phonePic {
+    display: none;
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    height: 464px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-links {
+    max-height: 28px;
+    width: 100.76%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+    overflow: hidden;
+    margin-top: 18px;
+    gap: 20px;
+}
+
+.footer-links li {
+    text-transform: uppercase;
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+}
+
+.footer-links li:hover {
+    cursor: pointer;
+}
+
+footer img {
+    width: 20.2%;
+    height: 27.3px;
+    margin-top: 105.12px;
+}
+
+.finalText1 {
+    width: 488px;
+    height: 71px;
+    font-family: 'New York Small';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 25.25px;
+}
+
+.finalText2 {
+    display: none;
+}
+
+.final-link {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin-top: 32px;
+}
+
+.final-link li {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid;
+    text-transform: capitalize;
+}
+
+.final-link li:hover {
+    cursor: pointer;
+}
+
+.final-line {
+    width: 12.36%;
+    height: 34px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 64px;
+}
+
+@media (max-width: 995px) {
+    * {
+        margin: 0;
+    }
+
+    body {
+        width: 375px;
+        height: 3308px;
+    }
+    
+    header {
+        height: 65px;
+    }
+    
+    header img {
+        width: 217px;
+        height: 20px;
+        margin-left: 20px;
+    }
+
+    .home {
+        display: flex;
+        width: 24px;
+        height: 14px;
+        margin-left: 90px;
+    }
+    
+    .firstList {
+        display: none;
+    }
+    
+    .mainPic {
+        width: 100%;
+        height: 235px;
+        margin-top: 51px;
+    }
+    
+    main h1 {
+        width: 345px;
+        height: 172px;
+        font-size: 36px;
+        line-height: 42.96px;
+        margin-top: 32px;
+    }
+    
+    main p {
+        width: 335px;
+        height: 81px;
+        font-size: 16px;
+        line-height: 27.2px;
+        margin-top: 24px;
+    }
+    
+    .divider {
+        margin-top: 52px;
+        width: 100%;
+    }
+    
+    main h2 {
+        width: 174px;
+        height: 38px;
+        font-size: 32px;
+        line-height: 38.19px;
+        margin-top: 54px;
+    }
+    
+    .pair {
+        display: none;
+    }
+    
+    .phonePic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 29px;
+        margin-bottom: 40px;
+    }
+
+    .single {
+        margin:0;
+    }
+
+    .phonePic .single img {
+        width: 335px;
+        height: 194px;
+    }
+
+    .phonePic .single p {
+        width: 262px;
+        height: auto;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26.4px;
+        text-align: center;
+        margin-bottom: 42px;
+        padding: 0;
+    }
+    
+    footer {
+        width: 100%;
+        height: 456px;
+    }
+    
+    .footer-links {
+        width: 124.53%;
+        margin-top: 22px;
+    }
+    
+    .footer-links li {
+        font-size: 16px;
+    }
+    
+    footer img {
+        width: 236.37px;
+        height: 22.18px;
+        margin-top: 103px;
+    }
+    
+    .finalText1 {
+        display: none;
+    }
+
+    .finalText2 {
+        font-family: 'New York Small';
+        display: flex;
+        width: 287px;
+        height: 71px;
+        font-size: 13px;
+        line-height: 18.2px;
+        margin-top: 25.41px;
+    }
+    
+    .final-link {
+        gap: 30px;
+    }
+    
+    .final-link li {
+        font-size: 13px;
+        line-height: 11.1px;
+    }
+    
+    .final-line {
+        width: 178px;
+        height: 34px;
+        line-height: 16.8px;
+    }
+
+    .death {
+        display: none;
+    }
+}
