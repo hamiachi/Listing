@@ -234,7 +234,7 @@ footer img {
     margin-top: 64px;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 991px) {
     * {
         margin: 0;
     }
