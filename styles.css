@@ -4,7 +4,6 @@
 
 body {
     max-width: 1440px;
-    margin:0 auto;
 }
 
 header {
@@ -12,6 +11,7 @@ header {
     align-items: center;
     height: 134px;
     border-bottom: 1px solid lightgray;
+    justify-content: space-between;
 }
 
 header img {
@@ -27,9 +27,9 @@ header img {
 .firstList {
     list-style-type: none;
     display: flex;
-    gap: 34px;
+    /* gap: 34px; */
     padding: 0;
-    margin-left: 33.09%;
+    /* margin-left: 33.09%; */
 }
 
 .firstList li {
@@ -60,7 +60,7 @@ main {
 .mainPic {
     width: 59.3%;
     height: 14.1%;
-    margin-top: 74px;
+    margin-top: 76px;
 }
 
 main h1 {
@@ -101,8 +101,8 @@ main h2 {
     font-size: 44px;
     line-height: 52.51px;
     text-align: center;
-    margin-top: 62px;
-    margin-bottom: 2.7%;
+    margin-top: 64px;
+    margin-bottom: 39px;
 }
 
 .pair {
@@ -235,7 +235,7 @@ footer img {
     margin-top: 64px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 995px) {
     * {
         margin: 0;
     }
@@ -342,7 +342,7 @@ footer img {
     }
     
     .footer-links {
-        width: 100%;
+        width: 124.53%;
         margin-top: 22px;
     }
     
